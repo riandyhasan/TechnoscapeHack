@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { Box, Text, Flex, Spacer, Grid } from "@chakra-ui/react";
 
 export default function Footer() {
@@ -27,18 +26,7 @@ export default function Footer() {
       alignItems="center"
     >
       <Spacer />
-      <Text textAlign="center">&copy; Glampy Team</Text>
-      <Grid
-        cursor="pointer"
-        gridTemplateColumns="repeat(3, 2rem)"
-        gridGap="0.5rem"
-        justifyContent="center"
-        alignItems="center"
-        justifySelf={{
-          base: "center",
-          md: "flex-end",
-        }}
-      ></Grid>
+      <Text textAlign="center">&copy; Daun Muda Corp Team</Text>
     </Box>
   );
 }

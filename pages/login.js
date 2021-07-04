@@ -1,14 +1,13 @@
 import React from "react";
 import Head from "next/head";
 import { Flex } from "@chakra-ui/react";
-import Layout from "../components/Layout/Layout";
 import LoginForm from "../components/Register/LoginForm";
 
-export default function RegisterPage() {
+export default function LoginPage() {
   return (
     <Flex>
       <Head>
-        <title>Glampy | Register</title>
+        <title>Glampy | Login</title>
       </Head>
 
       <main>

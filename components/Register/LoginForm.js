@@ -31,7 +31,7 @@ export default function LoginForm(props) {
             </Box>
             <Navbar selected="login" />
             <form>
-              <Grid p="5rem" gap="1.5rem" mt="2rem">
+              <Grid p="5rem" gap="1.5rem" mt="1.5rem">
                 <GridItem>
                   <FormControl id="email">
                     <FormLabel>Email</FormLabel>

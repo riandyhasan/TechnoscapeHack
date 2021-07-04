@@ -8,7 +8,7 @@ export default function Navbar({ selected }) {
 
   return (
     <Flex>
-      <Box style={{ filter: "drop-shadow(0px 4px 20px #FFF06A)" }} bg="brand.100">
+      <Box style={{ filter: "drop-shadow(0px 4px 10px #FFF06A)" }} bg="brand.100">
         <Flex>
           <Box color="brand.100" cursor="pointer" bg={selected === "register" ? "brand.300" : ""} onClick={() => router.push("/register")} p="2">
             <Flex alignItems="center">

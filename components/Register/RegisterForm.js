@@ -22,7 +22,7 @@ export default function RegisterForm(props) {
         </Box>
 
         <Box style={{ boxShadow: "0px 4px 100px #FFB302" }} color="brand.200" ml={{ base: "0rem", lg: "8rem" }}>
-          <Flex flexDirection="column" alignItems="center" mt="5rem">
+          <Flex flexDirection="column" alignItems="center" mt="1rem">
             <Box cursor="pointer" display={{ base: "block", xl: "none" }} mb="5rem">
               <Link href="/">
                 <Image src="/assets/Logo.png" height={40} width={150} />
@@ -30,7 +30,7 @@ export default function RegisterForm(props) {
             </Box>
             <Navbar selected="register" />
             <form>
-              <Grid p="5rem" gap="1.5rem">
+              <Grid ml="5rem" mr="5rem" gap="0.5rem">
                 <GridItem>
                   <FormControl id="email">
                     <FormLabel>Email</FormLabel>
@@ -75,7 +75,7 @@ export default function RegisterForm(props) {
                     </Button>
                   </Upload>
                 </GridItem>
-                <GridItem justifySelf="center" mt="5">
+                <GridItem justifySelf="center" mb="5">
                   <Button color="brand.200" bg="#FFBB1C" borderRadius="1.5rem" style={{ filter: "drop-shadow(0px 0px 20px #F0B019)" }}>
                     Register
                   </Button>
