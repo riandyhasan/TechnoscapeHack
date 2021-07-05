@@ -11,7 +11,7 @@ export default function RegisterForm(props) {
     <Flex {...props}>
       <Box cursor="pointer" maxW="20rem" p="1.25em" maxH="10rem" display={{ base: "none", xl: "block" }}>
         <Link href="/">
-          <Image src="/assets/Logo.png" height={40} width={150} />
+          <Image src="/assets/logo.png" height={40} width={150} />
         </Link>
       </Box>
 
