@@ -2,7 +2,7 @@ import React from "react";
 import { Flex, Box, Image, Heading, Text, ListItem, UnorderedList, Grid, GridItem, Link, Button } from "@chakra-ui/react";
 import { AiFillStar } from "react-icons/ai";
 
-export default function ItemCard(...props) {
+export default function ProductDetails(...props) {
   return (
     <Flex {...props} my="3rem">
       <Box overflow="hidden" color="white" fontWeight="light" w="100%">
